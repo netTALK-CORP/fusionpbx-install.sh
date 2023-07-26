@@ -3,7 +3,7 @@
 domain_name=ip_address                      # hostname, ip_address or a custom value
 system_username=admin                       # default username admin
 system_password=random                      # random or a custom value
-system_branch=master                        # master, stable
+system_branch=5.0                           # master, stable
 
 # FreeSWITCH Settings
 switch_branch=stable                        # master, stable
@@ -14,7 +14,7 @@ switch_tls=true                             # true or false
 switch_token=                               # Get the auth token from https://signalwire.com
                                             # Signup or Login -> Profile -> Personal Auth Token
 # Sofia-Sip Settings
-sofia_version=1.13.13                        # release-version for sofia-sip to use
+sofia_version=1.13.13                       # release-version for sofia-sip to use
 
 # Database Settings
 database_name=fusionpbx                     # Database name (safe characters A-Z, a-z, 0-9)
